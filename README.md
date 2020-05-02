@@ -1,7 +1,5 @@
-# The program is done by:
-    * THUMATI UJJIEVE CS16BTECH11039
-    * P RAMKISHAN     CS16BTECH11029
-    * S SHANMUKHA RAO CS16BTECH11034
+# Implements Non-Tablaue Simplex Algorithm.
+## Able to tell if the solution id unbounded or infeasible. Also can handle Degenerate Linear Programs.
 
 * use python 3+
 
