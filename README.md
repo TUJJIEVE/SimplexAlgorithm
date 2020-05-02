@@ -1,5 +1,7 @@
-# IMPLEMENTS NON TABLAEU VERSION OF SIMPLEX ALGORITHM.
-## Able to handle output if the solution is unbounded, infeasible. Also can handle degenerate Linear Programs.
+# The program is done by:
+    * THUMATI UJJIEVE CS16BTECH11039
+    * P RAMKISHAN     CS16BTECH11029
+    * S SHANMUKHA RAO CS16BTECH11034
 
 * use python 3+
 

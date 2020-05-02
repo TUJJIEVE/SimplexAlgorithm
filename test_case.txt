@@ -1,0 +1,31 @@
+One can use these test cases for various cases
+
+Notice that x_1>=0 , x_2 >=0 .... these conditions are not included in A and B matrix
+but you can include constraints like 3x_1 <= 2 in the A and B matrix
+
+## Example of infeasible solution
+A = np.array([[2,-1,-2],[2, -3,-1],[-1,1,1]])
+b = np.array([4, -5,-1])
+c = np.array([1, -1,1])
+
+
+## Example where [0,0,0,...] is not the initial feasible solution
+A = np.array([[2,-1,2], [2, -3,1],[-1,1,-2]])
+b = np.array([4, -5,-1])
+c = np.array([1, -1,1])
+
+## Unbounded example
+A = np.array([[-1,1],[-1,-1]])
+b = np.array([-1,-2])
+c = np.array([1,1])
+
+
+
+## Degenerate examples
+A = np.array([[1,1,0],[0,-1,1]])
+b = np.array([1, 0])
+c = np.array([1, 1,1])
+
+A = np.array([[1,4],[1,2]])
+b = np.array([8,4])
+c = np.array([3,9])
